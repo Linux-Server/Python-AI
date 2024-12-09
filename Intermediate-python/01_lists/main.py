@@ -96,3 +96,21 @@ print("Concat list : ", new_list)
 my_list = [1,2,3,4,5,6,7]
 sliced_list = my_list[0:3]
 print("The sliced list : ", sliced_list)
+
+print(my_list[::-1])
+
+
+# Copy a list
+
+orginal = [1,2,3,4]
+cpy_original = orginal
+orginal.append(24)
+
+print("The cpy list :", cpy_original)
+print("The org list :", orginal)
+
+
+# List Comphrehension
+
+new_list = [i*i for i in range(1,10)]
+print("The new list :", new_list)
